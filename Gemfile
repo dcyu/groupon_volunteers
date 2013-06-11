@@ -27,6 +27,13 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
+# New stronge_parameters requirements from Rails
+gem 'protected_attributes'
+
+# Gem needed for developing on Heroku
+gem 'heroku'
+gem 'pg'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
